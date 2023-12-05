@@ -1,0 +1,290 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family:'square peg'cursive;
+}
+body
+{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: row;
+font-family:'square peg'cursive;
+background-color: rgba(0, 0, 0, 2);
+
+
+}
+footer
+{
+    width: 17%;
+    height: 100%;
+    background: #111;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+footer .image-holder
+{
+    margin-top: 0%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background-position: top;
+
+}
+footer .image-holder img
+{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 7px solid #333;
+}
+footer .h2-holder
+{
+    margin-bottom: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:8%;
+    flex-direction: column;
+
+}
+
+footer .h2-holder h2
+{
+font-size:xx-large;
+font-weight: 700;
+color: #333;
+}
+footer ul .li-a-holder  li
+{
+    justify-content: center;
+    margin: 20px;
+    list-style: none;
+    border-bottom: 3px double #555;
+    width:85%;
+
+}
+footer ul .li-a-holder
+{
+    justify-content: center;
+}
+
+ul{
+    justify-content: center;
+}
+footer ul .li-a-holder  li a 
+{
+    justify-content: center;
+    margin: 18%;
+    font-size:27px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    width: 60%;
+    margin-left: 30%;
+}
+footer ul .li-a-holder:hover
+{
+    cursor: pointer;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 30px;
+}
+.main
+{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.main .home
+{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+
+}
+.main .home img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.main .home h1 , p 
+{
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 20%;
+color: #555;
+z-index: 999;
+position:relative;
+justify-content: center;
+font-size: 3.2rem;
+font-family:'square Peg' , cursive;
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: #fff;
+}
+.main .home p
+{
+    margin-left: 25%;
+    font-family:'square Peg' , cursive;
+}
+.About
+{
+    width: inherit;
+    background: rgba(0, 0, 0, 2);
+    color: #555;
+    font-size: xx-large;
+    padding: 10%;
+    height: 550px;
+    padding-top: 7%;
+    border-top: 3px double #555;
+
+    
+}
+.About div
+{
+    font-family: 'square peg' , cursive;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.skills
+{
+    width: inherit;
+    background: rgba(0, 0, 0, 2);
+    color: #555;
+    font-size: xx-large;
+    padding: 10%;
+    height: 550px;
+    padding-top: 7%;
+    font-family:'square peg'cursive;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px double #555;
+
+}
+ #html 
+{
+    width: 80%;
+    background-color: aqua;
+    border-radius: 25px;
+    padding-left: 1%;
+
+}
+.html-holder
+{
+    display: flex;
+    flex-direction: row;
+}
+#css
+{
+    width: 70%;
+    background-color: aqua;
+    border-radius: 25px;
+    padding-left: 1%; 
+}
+.css-holder
+{
+    display: flex;
+    flex-direction: row;   
+}
+
+#bootstrap
+{
+    width: 80%;
+    background-color: aqua;
+    border-radius: 25px;
+    padding-left: 1%; 
+}
+.bootstrap-holder
+{
+    display: flex;
+    flex-direction: row;   
+}
+
+#js
+{
+    width: 60%;
+    background-color: aqua;
+    border-radius: 25px;
+    padding-left: 1%;
+
+}
+
+.js-holder
+{
+    display: flex;
+    flex-direction: row;   
+}
+.skills #html , #css , #bootstrap , #js 
+{
+    margin-top: 2%;
+    padding-left: 4%;
+} 
+
+.experience
+{
+    width: inherit;
+    background: rgba(0, 0, 0, 2);
+    color: #555;
+    font-size: xx-large;
+    padding: 10%;
+    height: 550px;
+    padding-top: 7%;
+    font-family:'square peg'cursive;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px double #555;
+    justify-content: center;
+    
+}
+.experience p
+{
+    margin-left: 4%;
+}
+
+.mobile
+{
+    width: inherit;
+    background: rgba(0, 0, 0, 2);
+    color: #555;
+    font-size: xx-large;
+    padding: 5%;
+    height: 300px;
+    padding-top: 7%;
+    font-family:'square peg'cursive;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px double #555;
+    
+}
+.mobile .first-number
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:0;
+    margin-bottom: 4%;
+}
+
+.mobile .second-number
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.g-mail 
+{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row; 
+}
+svg
+{
+    margin-right: 9px;
+}
